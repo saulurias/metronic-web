@@ -9,11 +9,19 @@ li{
 .navbar-metronic{
 	background: #303840;
 }
-.btn-riqueza{
+.sidebar-riqueza{
 	background: #f36a5a;
 	color: white;
 	width: 150px;
 	text-align: center;
+}
+.sidebar-user{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+.sidebar-notification{
+	width: 100px;
 }
 .sidebar{
 	background: white;
@@ -21,6 +29,7 @@ li{
 }
 .sidebar-list li{
 	margin-top: 15px;
+	color: #5e5e5e;
 }
 .sidebar-divider{
 	margin-top: 80px;
@@ -28,17 +37,15 @@ li{
 .sidebar-top-divider{
 	padding-top: 15px;
 }
+.sidebar-icon{
+	padding-right: 5px;
+}
 
 .input-content{
 	width: 95%;
 	margin: 2.5%;
 	border: 0px solid;
-
-
 }
-
-
-
 .input-content-question-para-que{
 	padding: 30px;
 	border: 0px solid;
@@ -83,8 +90,13 @@ li{
 	border-bottom: 1px solid;
 	border-bottom-color: #00a2b7;
 }
+.btn-agregar{
+	background: #00a2b7;
+	border-radius: 0px;
+}
 .btn-agregar-foto{
-	padding-top: 10px;
+	padding: 30px;
+	color:white;
 }
 
 .main-content{
@@ -95,10 +107,26 @@ li{
 .main-content-header{
 	padding: 30px;
 	padding-bottom: 5px;
+	
+}
+.main-content-header-text{
+	color: #02a0b5;
 }
 
 .main-content-bottom{
-
+	padding-bottom: 30px;
+	padding-left: 20px;
+	height: 30px;
+}
+.main-content-bottom-btn-continuar{
+	border-radius: 0px;
+	background: #2f353b;
+	color: white;
+}
+.main-content-bottom-btn-cancelar{
+	border-radius: 0px;
+	background: #e1e5ec;
+	color: #5d5d5d;
 }
 
 

@@ -28,12 +28,13 @@
       <ul class="nav navbar-nav navbar-right">
         
 		<!-- Botón Riqueza-->
-        <li class="btn-riqueza"><p>Riquezas</p><h4>$13,000.00</h4></li>
+        <li class="sidebar-riqueza"><p>Riquezas</p><h4>$13,000.00</h4></li>
 
-
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
+		
+			
+        <li class="sidebar-notification"><a href="#"><img src="icons/notificacion.png" alt="" class="sidebar-icon">1</a></li>
+        <li class="sidebar-notification"><a href="#"><img src="icons/calendario.png" alt="" class="sidebar-icon">3</a></li>
+        <li class="sidebar-notification"><a href="#">Saul <img src="icons/foto.jpg" alt="" class="sidebar-user"> </a></li>
 
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -55,8 +56,8 @@
 			</div>
 			<div class="sidebar-divider">
 				<ul class="sidebar-list">
-					<li>AJUSTES</li>
-					<li>CERRAR SESION</li>
+					<li><h5>AJUSTES</h5></li>
+					<li><h5>CERRAR SESION</h5></li>
 				</ul>
 			</div>
 		</div>
@@ -67,8 +68,8 @@
 		<div class="main-content">
 
 		<div class="main-content-header">
-			<a href="">
-					CREAR NUEVA META
+			<a href="" class="main-content-header-text">
+				<img src="icons/add.png" alt="">  CREAR NUEVA META
 			</a>
 		</div>
 		
@@ -87,11 +88,15 @@
 
 				<div class="input-group">
 			  	 <input class="form-control input-content-question-foto" type="text" placeholder="Agregar una foto" ">
-				   <span class="input-group-btn">
-				        <button type="button" class="btn btn-agregar-foto">Agregar</button>
+				   <span class="input-group-btn btn-agregar-foto">
+				        <button type="button" class="btn btn-agregar">Agregar</button>
 				   </span>
 				</div>
 			</form>
+		<div class="main-content-bottom">
+			<button type="button" class="btn main-content-bottom-btn-continuar">Continuar</button>
+			<button type="button" class="btn main-content-bottom-btn-cancelar">Cancelar</button>
+		</div>
 		</div>
 			
 		</div>
@@ -100,9 +105,7 @@
 		</div>
 	</div>
 
-	<div main-content-bottom>
-		
-	</div>
+	
 
 </div>
 
