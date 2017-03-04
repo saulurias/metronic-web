@@ -16,16 +16,46 @@ li{
 	text-align: center;
 }
 .sidebar-user{
+	padding-right: 5px;	
+}
+.sidebar-user-photo{
 	height: 30px;
 	width: 38px;
 	border-radius: 50%;
+	padding-left: 5px;
 }
 .sidebar-notification{
 	width: 100px;
+	padding-left: 30px;
+}
+.sidebar-notification-alert{
+	background-color: #ffb357;
+	float: right;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 12px;
+	height: 20px;
+	width: 20px;
+	padding-bottom: 12px;
+	color: white;
+}
+.sidebar-notification-calendar{
+	background-color: #00a2b7;
+	float: right;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 12px;
+	height: 20px;
+	width: 20px;
+	padding-bottom: 12px;
+	color: white;
+}
+.sidebar-icon{
+	margin: 0px;
 }
 .sidebar{
 	background: white;
-	height: 450px;
+	height: 500px;
 }
 .sidebar-list{
 	padding-left: 0px;
@@ -40,15 +70,20 @@ li{
 	border-left: 2px solid #02a0b5;
 	background-color: #e5f5f7;
 }
+.sidebar-list-icon{
+	padding-left: 0px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+
+}
 .sidebar-divider{
 	margin-top: 80px;
 }
 .sidebar-top-divider{
 	padding-top: 15px;
 }
-.sidebar-icon{
-	padding-right: 5px;
-}
+
+
 
 .input-content{
 	width: 95%;
