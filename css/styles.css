@@ -17,7 +17,7 @@ li{
 }
 .sidebar-user{
 	height: 30px;
-	width: 30px;
+	width: 38px;
 	border-radius: 50%;
 }
 .sidebar-notification{
@@ -25,11 +25,20 @@ li{
 }
 .sidebar{
 	background: white;
-	height: 350px;
+	height: 450px;
+}
+.sidebar-list{
+	padding-left: 0px;
 }
 .sidebar-list li{
+	padding: 5px;
+	padding-left: 20px;
 	margin-top: 15px;
 	color: #5e5e5e;
+}
+.sidebar-list li:hover{
+	border-left: 2px solid #02a0b5;
+	background-color: #e5f5f7;
 }
 .sidebar-divider{
 	margin-top: 80px;
@@ -107,7 +116,7 @@ li{
 .main-content-header{
 	padding: 30px;
 	padding-bottom: 5px;
-	
+	border-bottom: 2px solid #e4e3e7;
 }
 .main-content-header-text{
 	color: #02a0b5;
