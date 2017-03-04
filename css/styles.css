@@ -1,0 +1,116 @@
+body{
+	background: #f0eff5;
+}
+li{
+	list-style-type: none;
+}
+
+
+.navbar-metronic{
+	background: #303840;
+}
+.btn-riqueza{
+	background: #f36a5a;
+	color: white;
+	width: 150px;
+	text-align: center;
+}
+.sidebar{
+	background: white;
+	height: 350px;
+}
+.sidebar-list li{
+	margin-top: 15px;
+}
+.sidebar-divider{
+	margin-top: 80px;
+}
+.sidebar-top-divider{
+	padding-top: 15px;
+}
+
+.input-content{
+	width: 95%;
+	margin: 2.5%;
+	border: 0px solid;
+
+
+}
+
+
+
+.input-content-question-para-que{
+	padding: 30px;
+	border: 0px solid;
+  	border-radius: 0px;
+	border-bottom: 1px solid;
+  	border-bottom-color: #f36a5a;
+}
+.input-content-question-cuanto{
+	padding: 30px;
+	border: 0px solid;
+  	border-radius: 0px;
+	border-bottom: 1px solid;
+	border-bottom-color: #00a2b7;
+
+}
+.input-content-question-cuando{
+	padding: 30px;
+	border: 0px solid;
+  	border-radius: 0px;
+	border-bottom: 1px solid;
+	border-bottom-color: #ffb357;
+}
+.input-content-question-ahorro-diario{
+	padding: 30px;
+	border: 0px solid;
+  	border-radius: 0px;
+	border-bottom: 1px solid;
+	border-bottom-color: #00cc94;
+}
+.input-content-question-agregar-amigos{
+	padding: 30px;
+	border: 0px solid;
+  	border-radius: 0px;
+	border-bottom: 1px solid;
+	border-bottom-color: #ff4868;
+}
+.input-content-question-foto{
+	width: 80%;
+	padding: 30px;
+	border: 0px solid;
+  	border-radius: 0px;
+	border-bottom: 1px solid;
+	border-bottom-color: #00a2b7;
+}
+.btn-agregar-foto{
+	padding-top: 10px;
+}
+
+.main-content{
+	background: white;
+	padding: 30px;
+}
+
+.main-content-header{
+	padding: 30px;
+	padding-bottom: 5px;
+}
+
+.main-content-bottom{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
