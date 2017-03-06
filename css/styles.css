@@ -28,6 +28,7 @@ li{
 	width: 100px;
 	padding-left: 30px;
 }
+
 .sidebar-notification-alert{
 	background-color: #ffb357;
 	float: right;
@@ -90,48 +91,51 @@ li{
 	margin: 2.5%;
 	border: 0px solid;
 }
-.input-content-question-para-que{
-	padding: 30px;
+.input-content-effect:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.input-content-effect::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.input-content-effect:-ms-input-placeholder {
+  color: #999;
+}
+.input-content-effect::-webkit-input-placeholder {
+  color: #999;
+}
+.input-content-effect::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.input-content-question{
+	padding: 35px;
 	border: 0px solid;
+	width: 100%;
   	border-radius: 0px;
 	border-bottom: 1px solid;
+}
+.input-content-question-para-que{
   	border-bottom-color: #f36a5a;
 }
 .input-content-question-cuanto{
-	padding: 30px;
-	border: 0px solid;
-  	border-radius: 0px;
-	border-bottom: 1px solid;
 	border-bottom-color: #00a2b7;
 
 }
 .input-content-question-cuando{
-	padding: 30px;
-	border: 0px solid;
-  	border-radius: 0px;
-	border-bottom: 1px solid;
 	border-bottom-color: #ffb357;
 }
 .input-content-question-ahorro-diario{
-	padding: 30px;
-	border: 0px solid;
-  	border-radius: 0px;
-	border-bottom: 1px solid;
 	border-bottom-color: #00cc94;
 }
 .input-content-question-agregar-amigos{
-	padding: 30px;
-	border: 0px solid;
-  	border-radius: 0px;
-	border-bottom: 1px solid;
 	border-bottom-color: #ff4868;
 }
 .input-content-question-foto{
-	width: 80%;
-	padding: 30px;
-	border: 0px solid;
-  	border-radius: 0px;
-	border-bottom: 1px solid;
 	border-bottom-color: #00a2b7;
 }
 .btn-agregar{
@@ -176,7 +180,11 @@ li{
 
 
 
-
+@media (max-width: 766px){
+	.sidebar-riqueza{
+		width: 100%;
+	}
+}
 
 
 
