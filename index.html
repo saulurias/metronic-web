@@ -3,10 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Metronic Metas</title>
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/inputs_styles.css">
 	<link rel="stylesheet" href="css/styles.css">
+	
 	<script src="jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/classie.js"></script>
+	
 </head>
 <body>
 <nav class="navbar navbar-default navbar-metronic">
@@ -30,18 +35,19 @@
 		<!-- Botón Riqueza-->
         <li class="sidebar-riqueza"><p>Riquezas</p><h4>$13,000.00</h4></li>
 
-        <li class="sidebar-notification">
-        	<a href="#"><img src="icons/notificacion.png" alt="" class="sidebar-icon">
-        		<div class="sidebar-notification-alert">
+        <li class="sidebar-notification-box sidebar-notification-icon">
+        	<a href="#">
+        		<img src="icons/notificacion.png" alt="" class="">
+        		<div class="sidebar-notification sidebar-notification-alert">
         			<p>1</p>
         		</div>
         	</a>
         </li>
 
-        <li class="sidebar-notification">
-        	<a href="#">
+        <li class="sidebar-notification-box sidebar-notification-icon">
+        	<a href="#" class="">
         		<img src="icons/calendario.png" alt="" class=""> 
-        		<div class="sidebar-notification-calendar">
+        		<div class="sidebar-notification sidebar-notification-calendar">
         			<p>3</p>
         		</div>
         	</a>
@@ -87,14 +93,56 @@
 		
 		<div>
 			<form action="" class="input-content">
-				<input class="input-content-question input-content-question-para-que input-content-effect" type="text" placeholder="¿Para qué te gustaría ahorrar?" >
-				<br>
-				<input class="input-content-question input-content-question-cuanto input-content-effect" type="text" placeholder="¿Cuánto necesitas?" >
-				<br>
-				<input class="input-content-question input-content-question-cuando input-content-effect" type="text" placeholder="¿Para cuándo lo necesitas?" >
-				<br>
-				<input class="input-content-question input-content-question-ahorro-diario input-content-effect" type="text" placeholder="Ahorro diario (automático)" >
-				<br>
+			<span class="input input--hoshi ">
+					<input class="input input__field input__field--hoshi input-content-question input-content-question-para-que" type="text" id="input-4" />
+					<label class="input__label input__label--hoshi for="input-4">
+						<span class="input__label-content input__label-content--hoshi">¿Para qué te gustaría ahorrar?</span>
+					</label>
+			</span>
+			<span class="input input--hoshi ">
+					<input class="input input__field input__field--hoshi input-content-question input-content-question-cuanto" type="text" id="input-4" />
+					<label class="input__label input__label--hoshi for="input-4">
+						<span class="input__label-content input__label-content--hoshi">¿Cuánto necesitas?</span>
+					</label>
+			</span>
+			<span class="input input--hoshi ">
+					<input class="input input__field input__field--hoshi input-content-question input-content-question-cuando" type="text" id="input-4" />
+					<label class="input__label input__label--hoshi for="input-4">
+						<span class="input__label-content input__label-content--hoshi">¿Para cuándo lo necesitas?</span>
+					</label>
+			</span>
+			<span class="input input--hoshi ">
+					<input class="input input__field input__field--hoshi input-content-question input-content-question-ahorro-diario" type="text" id="input-4" />
+					<label class="input__label input__label--hoshi for="input-4">
+						<span class="input__label-content input__label-content--hoshi">Ahorro diario (automático)</span>
+					</label>
+			</span>
+			<span class="input input--hoshi ">
+					<input class="input input__field input__field--hoshi input-content-question input-content-question-agregar-amigos" type="text" id="input-4" />
+					<label class="input__label input__label--hoshi for="input-4">
+						<span class="input__label-content input__label-content--hoshi">Agregar amigos</span>
+					</label>
+			</span>
+			<span class="input input--hoshi ">
+					
+
+				<div class="input-group">
+			  	 <input class="input input__field input__field--hoshi input-content-question input-content-question-foto" type="text" id="input-4" />
+					<label class="input__label input__label--hoshi for="input-4">
+						<span class="input__label-content input__label-content--hoshi">Agregar una foto</span>
+					</label>
+				   <span class="input-group-btn btn-agregar-foto">
+				        <button type="button" class="btn btn-agregar">Agregar</button>
+				   </span>
+				</div>
+
+
+
+			</span>
+	
+				<!-- 
+				
+			
 				<input class="input-content-question input-content-question-agregar-amigos input-content-effect" type="text" placeholder="Agregar amigos" >
 				<br>
 
@@ -104,18 +152,16 @@
 				        <button type="button" class="btn btn-agregar">Agregar</button>
 				   </span>
 				</div>
+				-->
 			</form>
 		<div class="main-content-bottom">
 			<button type="button" class="btn main-content-bottom-btn-continuar">Continuar</button>
 			<button type="button" class="btn main-content-bottom-btn-cancelar">Cancelar</button>
 		</div>
-		</div>
-			
-		</div>
-			
-			
-		</div>
+			</div>	
+		</div>		
 	</div>
+</div>
 
 	
 
